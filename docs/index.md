@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Rellic Documentation"
-  text: "Rellic documentation"
-  tagline: My great project tagline
+  name: "Rellic"
+  text: "Documentation"
+  tagline: A simple guide to getting started with Rellic
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Documentation
       link: /api-examples
 
 features:

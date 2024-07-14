@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Rellic Documentation",
+  title: "Rellic",
   description: "Rellic documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -13,16 +13,26 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Concepts" },
+          { text: "Create a Container" },
+          { text: "Configuration" },
+        ],
+      },
+      {
+        text: 'Installations',
+        items: [
+          { text: "Google Analytics" },
+          { text: "Facebook Pixel" },
+          { text: "HiStats" },
+          { text: "Vercel Analytics" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/zhinea/rellic-docs' }
     ]
   }
 })
